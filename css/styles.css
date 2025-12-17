@@ -1,0 +1,31 @@
+:root{
+    --tango: #ef6211;
+    --hot-cinnamon: #d6771a;
+    --ocean-green: #44ac7b;
+    --gondola: #2a1819;
+    --red-violet: #b91977;
+    --spicy-mix: #846145;
+    --jewel: #106d40;
+    --tasman: #d9e2db;
+    --tulip-tree: #e6ac46;;
+}
+
+h1{
+    background-color: var(--tulip-tree);
+}
+
+main{
+    background-color: var(--tulip-tree);
+}
+
+nav{
+    background-color: var(--red-violet);
+}
+
+.card-color{
+    background-color: var(--jewel);
+}
+
+.boton-color{
+    background-color: var(--red-violet);
+}
