@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/form.css">
+        <title>Document</title>
+</head>
+
+<body>
+    <section id="encabezado">
+            <h1>Lit Mex</h1>
+    </section>
+    <section id="seccion-barra" class="barra-de-navegacion">
+        <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Autor, Libro" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Buscar
+                </button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Autores</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Frases</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Datos curiosos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <section class="apartado-a-que-famoso-te-pareces">
+        <div class="titulo-apartado">
+            <h2>¿A qué autor literario te pareces?</h2>
+        </div>
+    </section>
+
+    <section class="formulario">
+        <div class="primer-pregunta">
+            <p class="primer-pregunta-parrafo">1.¿Cómo manejas los problemas en tu vida?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Los enfrento de manera directa, aunque me cueste.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Soy más introspectivo, dejo que las cosas me transformen.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Actúo siguiendo mis pasiones, aunque sean complicadas.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Analizo, observo y actúo con cautela.
+                </label>
+            </div>
+        </div>
+        <div class="segunda-pregunta">
+            <p class="segunda-pregunta-parrafo">2. ¿Qué ambiente te representa mejor? </p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Un pueblo polvoriento lleno de historias y secretos.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Una cocina llena de aromas, tradición y emociones.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Un México revolucionado y lleno de cambios.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Una casa antigua con un aire misterioso.
+                </label>
+            </div>
+        </div>
+        <div class="tercer-pregunta">
+            <p class="tercer-pregunta-parrafo">3. ¿Cómo describirías tu forma de amar?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Intensa y complicada.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Fidelidad absoluta aunque duela.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Apasionada y expresiva.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                    Enigmática y profunda.
+                </label>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="boton-siguiente">
+        <button type="button" class="btn btn-primary"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            Siguiente
+        </button>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    
+    <img src="./img/Equipo 2_ Literatura mexicana - Página 1.svg"
+            alt="dos claveles rojas por delante y dos claveles rosas por dentras">
+  
+</body>
+
+</html>

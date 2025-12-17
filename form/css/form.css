@@ -1,0 +1,44 @@
+body{
+    background-color: #e6ac46;
+    margin: 0; 
+    height: 100%;
+}
+h1{
+    font-size: 100px;
+}
+#encabezado{
+    margin: 0;
+    border: 0;
+    padding-left: 50px;
+}
+#seccion-barra{
+    margin: 0;
+    border: 0;
+    background-color: #b91977;
+    padding-left: 50px;
+}
+#navegadores{
+    margin-left: 500px;
+    background-color: #b91977;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#barra-de-navegacion{
+   background-color: #b91977;
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+#nav-barra{
+    margin: 0;
+    border: 0;
+    background-color: #b91977; 
+}
+#formulario-completo{
+    background-color: #b91977;
+}
+img{
+    height: 100px;
+}
+
