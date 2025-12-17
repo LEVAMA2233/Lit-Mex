@@ -6,43 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
+        <title>Document</title>
 </head>
 
 <body>
-    <section>
-        <div class="encabezado">
+    <section id="encabezado">
             <h1>Lit Mex</h1>
-        </div>
     </section>
-    <section class="barra-de-navegacion">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                    <a class="navbar-brand" href="#">Inicio</a>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Autores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Frases</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Datos curiosos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <section id="seccion-barra" class="barra-de-navegacion">
+        <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Autor, Libro" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Buscar
+                </button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Autores</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Frases</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Datos curiosos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
     </section>
 
     <section class="apartado-a-que-famoso-te-pareces">
@@ -148,10 +148,10 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 
-    <section class="imagen">
-        <img src="./img/Equipo 2_ Literatura mexicana - Página 1.svg"
+    
+    <img src="./img/Equipo 2_ Literatura mexicana - Página 1.svg"
             alt="dos claveles rojas por delante y dos claveles rosas por dentras">
-    </section>
+  
 </body>
 
 </html>
