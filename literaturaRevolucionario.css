@@ -1,1 +1,12 @@
 /*Estilo del apartado de recomendaciones de libros*/
+:root{
+    --color-de-fondo:#e6ac46;
+    --fuente-de-titulos:"Archivo Black", sans-serif;
+}
+
+body{
+    background-color: var(--color-de-fondo);
+}
+
+
+
