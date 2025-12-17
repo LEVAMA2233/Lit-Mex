@@ -25,3 +25,7 @@ nav{
 .card-color{
     background-color: var(--jewel);
 }
+
+.boton-color{
+    background-color: var(--red-violet);
+}
