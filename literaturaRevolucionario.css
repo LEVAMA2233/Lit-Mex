@@ -8,4 +8,6 @@ body{
     background-color: var(--color-de-fondo);
 }
 
-
+btn-Busqueda{
+    background-color: #106d40 !important;
+}
