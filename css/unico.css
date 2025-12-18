@@ -1,0 +1,103 @@
+:root {
+    --tango: #ef6211;
+    --hot-cinnamon: #d6771a;
+    --ocean-green: #44ac7b;
+    --gondola: #2a1819;
+    --red-violet: #b91977;
+    --spicy-mix: #846145;
+    --jewel: #106d40;
+    --tasman: #d9e2db;
+    --tulip-tree: #e6ac46;
+}
+
+body {
+    background-color: var(--tasman);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.canvas-mural {
+    max-width: 900px;
+    background-color: var(--tulip-tree);
+    padding: 40px;
+    border: 3px solid var(--gondola);
+    box-shadow: 15px 15px 0px var(--spicy-mix);
+    margin: 20px auto 50px auto;
+}
+
+.nube-titulo {
+    background-color: var(--red-violet);
+    color: white;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 2px solid var(--gondola);
+}
+
+.barra-autor {
+    background-color: var(--tango);
+    padding: 15px;
+    border: 2px solid var(--gondola);
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.etiqueta-azul {
+    background-color: var(--ocean-green);
+    color: white;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px solid var(--gondola);
+}
+
+.nombre-autor {
+    margin-left: 20px;
+    color: var(--gondola);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.marco-foto {
+    background-color: var(--ocean-green);
+    padding: 10px;
+    border: 2px solid var(--gondola);
+    display: inline-block;
+}
+
+.marco-foto img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+.cita-bubble {
+    background-color: white;
+    border: 2px dashed var(--red-violet);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.chisme-bubble {
+    background-color: var(--red-violet);
+    color: white;
+    padding: 8px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-dato {
+    background-color: var(--jewel);
+    color: white;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-left: 8px solid var(--ocean-green);
+    box-shadow: 4px 4px 0px var(--gondola);
+}
